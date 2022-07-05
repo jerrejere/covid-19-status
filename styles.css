@@ -10,7 +10,7 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
      background-color: yellowgreen;
 }
-/* nav{
+nav{
     background: yellowgreen;
 height: 10vh; 
 width: 100%;
@@ -21,11 +21,11 @@ padding-right: 60px;
 .logo{
     flex: 1;
     margin-right: 40px;
-     } */
-.h1{
+     }
+/* .h1{
     letter-spacing: 1px;
     font-size: 2px;
-}
+} */
 .list-items{
     flex: 2;
     display: flex;
