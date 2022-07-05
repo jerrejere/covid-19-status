@@ -24,7 +24,7 @@ fetch(`https://covid-19-coronavirus-statistics.p.rapidapi.com/v1/stats?country=$
 		
 
         document.getElementById('death').innerHTML = data.data.covid19Stats[0].deaths ?? 0
-        document.getElementById('confirmed').innerHTML = data.data.covid19Stats[0].confirmed || 0 
+        document.getElementById('confirmed').innerHTML = data.data.covid19Stats[0].confirmed ?? 0 
         document.getElementById('recovered').innerHTML = data.data.covid19Stats[0].recovered ?? 0
 
 		
