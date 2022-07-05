@@ -22,10 +22,10 @@ padding-right: 60px;
     flex: 1;
     margin-right: 40px;
      }
-/* .h1{
+.h1{
     letter-spacing: 1px;
     font-size: 2px;
-} */
+}
 .list-items{
     flex: 2;
     display: flex;
