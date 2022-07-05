@@ -8,7 +8,7 @@ header{
 }
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-     
+     background-color: yellowgreen;
 }
 nav{
     background: yellowgreen;
@@ -46,6 +46,7 @@ padding-right: 60px;
 .main-left{
     height: 100%;
     width: 50%;
+   
 }
 .main-right{
     height: 100%;
@@ -56,12 +57,16 @@ padding-right: 60px;
     flex-direction: column;
 }
 .img-v{
-    height: 30vw;
-    width: 30vw;
+    height: 10vw;
+    width: 20vw;
+    justify-content: first baseline;
+    float: inline-end;
+
 }
 .main-right p{
     font-size: 30px;
     padding-top: 10px;
+    justify-content: flex-end;
 }
 .main{
     background-color: whitesmoke;
