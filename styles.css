@@ -26,11 +26,11 @@ padding-right: 60px;
     letter-spacing: 1px;
     font-size: 2px;
 }
-.list-items{
+/* .list-items{
     flex: 2;
     display: flex;
     justify-content:space-evenly ;
-}
+} */
 .list{
     list-style: none; 
 }
